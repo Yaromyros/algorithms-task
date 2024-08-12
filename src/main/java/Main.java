@@ -1,9 +1,10 @@
 import Day1_solutions.NumberContainer;
+import Day2_solutions.ValidAnagram;
 
 public class Main {
     public static void main(String[] args) {
-        NumberContainer numberContainer = new NumberContainer();
-        int[] example1 = {1,2,3,4};
-        System.out.println(numberContainer.containsDuplicate(example1));
+        ValidAnagram validAnagram = new ValidAnagram();
+        boolean result = validAnagram.isAnagram("cat", "act");
+        System.out.println(result);
     }
 }
