@@ -1,4 +1,3 @@
-import Day1_solutions.NumberContainer;
 import Day2_solutions.ValidAnagram;
 
 public class Main {
